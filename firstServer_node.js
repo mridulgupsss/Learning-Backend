@@ -16,6 +16,8 @@ const server = http.createServer((req, res) => {
   // res.setHeader('Content-type' , 'text/plain');
   // res.write('This is header');
   // res.end();
+
+  
   let path = "./SampleFiles";
 //   console.log(req.url);
   switch (req.url) {
