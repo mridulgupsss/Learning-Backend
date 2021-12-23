@@ -1,0 +1,8 @@
+Rules for API to be a REST API:
+
+1. response should be same irrespective of request platform
+2. routes should be on the basis of Nouns
+3. http methods should be used for doing operations on these routes 
+4. http methods should be verb type basis 
+5. data should be alwyas in JSON format
+6. API should be stateless (eg: if the same request is mad to the backend it should not save the previous state and handle it just separately withut knowing ehat respone oreviously t hand sent for the smae request)
